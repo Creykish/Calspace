@@ -1,18 +1,28 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: rgb(246, 241, 231);
   }
   
   nav {
     background: #333;
     padding: 10px;
+    display: flex;           
+    align-items: center;        
   }
   
   nav a {
     color: #fff;
     margin-right: 15px;
     text-decoration: none;
+    display: flex;             
+    align-items: center;        
+  }
+
+  nav a:first-child {
+    margin-right: auto; 
   }
   
   main {
@@ -28,4 +38,60 @@ body {
   form input, form textarea, form button {
     margin-bottom: 10px;
     padding: 8px;
+  }
+
+  .codebox {
+    background-color: #333;
+    color: whitesmoke;
+    font-family: 'Courier New';
+    padding: 1px 20px 40px 20px;
+    align-items:flex-start;
+    flex-direction: row;
+  }
+
+  .carousel-container {
+    width: 100%;
+    overflow: hidden;
+    background: #222;
+    padding: 20px 0;
+  }
+  
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-track a {
+    flex: 0 0 auto;
+    margin: 0 10px;
+  }
+  
+  .carousel-track img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .carousel-track img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    background: linear-gradient(to top, #333, rgba(0, 0, 0, 0)); /* black to transparent */
+    color: white;
+    padding: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    text-align: center;
+    align-content: flex-end;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* push content to bottom */
+    align-items: center;
   }

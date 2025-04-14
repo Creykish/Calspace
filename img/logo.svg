@@ -9,9 +9,6 @@
    id="svg5"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    sodipodi:docname="logo.svg"
-   inkscape:export-filename="img\logo.png"
-   inkscape:export-xdpi="491.08554"
-   inkscape:export-ydpi="491.08554"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -28,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.73940797"
-     inkscape:cx="229.23745"
-     inkscape:cy="875.7006"
+     inkscape:cx="39.896784"
+     inkscape:cy="442.92192"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="-9"
@@ -883,8 +880,8 @@
     <ellipse
        style="fill:#ffffff;fill-opacity:0.537572;stroke:none;stroke-width:1.09023;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6.54142, 1.09023;paint-order:stroke fill markers"
        id="path190-3-2-07"
-       cx="-126.58176"
-       cy="309.3204"
+       cx="125.27368"
+       cy="154.73727"
        rx="37.731308"
        ry="37.841644" />
     <path
@@ -1007,6 +1004,14 @@
        clip-path="url(#clipPath8533-6)"
        transform="translate(48.042013,99.444509)" />
     <ellipse
+       style="fill:#ffffff;fill-opacity:0.54;stroke:none;stroke-width:1.52085;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:9.12519, 1.52085;paint-order:stroke fill markers"
+       id="path190-3-2-9-8"
+       cx="49.288929"
+       cy="239.55458"
+       rx="40.619465"
+       ry="68.403625"
+       transform="matrix(0.67950146,-0.73367416,0.62688599,0.77911101,0,0)" />
+    <ellipse
        style="fill:#ffffff;fill-opacity:0.537572;stroke:none;stroke-width:1.09023;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6.54142, 1.09023;paint-order:stroke fill markers"
        id="path190-3-2-07-9"
        cx="166.06496"
@@ -1056,13 +1061,5 @@
        sodipodi:ry="36.856625"
        d="m -24.75605,159.23494 a 36.856625,36.856625 0 0 1 -36.856625,36.85662 36.856625,36.856625 0 0 1 -36.856624,-36.85662 36.856625,36.856625 0 0 1 36.856624,-36.85663 36.856625,36.856625 0 0 1 36.856625,36.85663 z"
        transform="matrix(1.0370491,0,0,1.0267497,-24.464256,-85.468075)" />
-    <rect
-       style="fill:#000000;fill-opacity:0;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6.00001, 1;paint-order:stroke fill markers"
-       id="rect13511"
-       width="106.89371"
-       height="106.89371"
-       x="-132.88541"
-       y="147.65436"
-       ry="7.1566267" />
   </g>
 </svg>
