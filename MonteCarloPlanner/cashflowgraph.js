@@ -14,8 +14,12 @@ async function drawCashflowPlot(points) {
     let y = d3.scalePow().exponent(0.5)
         .rangeRound([height, 0]);
         
+    d3.select("#cashflow-tooltip")
+        .remove(); // Remove any existing tooltip
+
     let tooltip = d3.select("body") 
         .append("div")
+        .attr("id", "cashflow-tooltip")
         .style("position", "absolute")
         .style("background", "lightgray")
         .style("padding", "5px")
