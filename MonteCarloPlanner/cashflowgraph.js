@@ -278,10 +278,12 @@ async function drawCashflowPlot(points) {
                 return;
             }
 
+            
             points.push({ Step: xpos, Value: ypos });
             points.sort(function(a, b) {
                 return a.Step - b.Step;
             });
+            initCashflows = points;
 
             drawCashflowPlot(points);
             runSimulationSignal.emit();
