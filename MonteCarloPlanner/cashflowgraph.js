@@ -326,6 +326,7 @@ async function drawCashflowPlot(points) {
                 return a.Step - b.Step;
             });
 
+            initCashflows = points;
             drawCashflowPlot(points);
             runSimulationSignal.emit();
         })
